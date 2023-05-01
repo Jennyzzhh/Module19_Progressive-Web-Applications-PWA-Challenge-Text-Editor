@@ -6,7 +6,7 @@ window.addEventListener('beforeinstallprompt', (event) => {
     //store the triggered event
     window.deferredPrompt = event;  
     //remove the hidden class from the button
-    beforeInstall.classList.toggle('hidden',false);
+    butInstall.classList.toggle('hidden',false);
 
 });
 

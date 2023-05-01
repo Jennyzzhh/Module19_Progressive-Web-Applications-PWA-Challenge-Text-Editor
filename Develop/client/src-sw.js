@@ -1,6 +1,8 @@
 const { offlineFallback, warmStrategyCache } = require('workbox-recipes');
+
 const { CacheFirst } = require('workbox-strategies');
 const { registerRoute } = require('workbox-routing');
+const { StaleWhileRevalidate } = require('workbox-strategies'); // validate network
 const { CacheableResponsePlugin } = require('workbox-cacheable-response');
 const { ExpirationPlugin } = require('workbox-expiration');
 const { precacheAndRoute } = require('workbox-precaching/precacheAndRoute');
@@ -41,4 +43,4 @@ registerRoute(
     ],
   })
 );
-registerRoute();
+
