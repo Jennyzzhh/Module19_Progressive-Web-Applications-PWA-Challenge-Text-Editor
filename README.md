@@ -16,4 +16,4 @@
 
 ## GitHub repository
 
-[Github link] (https://github.com/Jennyzzhh/Module18_NoSQL-Challenge-Social-Network-API.git)
+[Github link] (https://github.com/Jennyzzhh/Module19_Progressive-Web-Applications-PWA-Challenge-Text-Editor.git)
